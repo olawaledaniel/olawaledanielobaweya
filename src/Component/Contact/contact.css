@@ -1,0 +1,90 @@
+#contact{
+    width: 100%;
+    display: flex;
+    font-size: 1.125em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgba(232, 73, 73, 1);
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.572), rgb(255, 255, 255) ),url("./src/assets/bg.png");
+    /* background: url("./src/assets/bg.png"); */
+ }
+#contact p{
+    margin: 50px 0 0 0;
+ }
+ #ContactM{
+    width:86%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 54px 0 54px 0;
+    height: 100%;
+ }
+ #conImg{
+    width: 45%;
+ }
+ #conImg img{
+    width:100% ;
+    height: 100%;
+ }
+ #ContactInput{
+    width: 50%;
+ }
+ #inp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+#inp input{
+    width: 100%;
+    padding: 0 0 0 20px;
+    height: 53px;
+    margin: 0 0 7% 0;
+    border:1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14);
+    
+ }
+#inp textarea{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    height: 158px;
+    padding: 20px 0 0 20px;
+    width: 100%;
+    resize: none;
+    margin: 0 0 7% 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14);
+
+ }
+ #inp button{
+    height: 50px;
+    width: 35%;
+    background: rgba(52, 61, 104, 1);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 300;
+
+ }
+ #inp button img{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+ }
+ #inp button:hover{
+    background-color: rgba(62, 71, 130, 1);
+ }
+button:focus,
+button:focus-visible {
+  outline: 474px auto -webkit-focus-ring-color;
+}
